@@ -24,7 +24,8 @@ function App() {
   // return <div className="App">App</div>;
   return (
     <>
-      {init ? <AppRouter isLoggedIn={isLoggedIn} /> : "initializing..."}
+      {/* {init ? <AppRouter isLoggedIn={isLoggedIn} /> : "initializing..."} */}
+      <AppRouter isLoggedIn={isLoggedIn} />
       <footer>&copy; {new Date().getFullYear()} Nwitter</footer>
     </>
   );
